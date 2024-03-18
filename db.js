@@ -17,8 +17,8 @@ if (process.env.NODE_ENV === "production") {
     connectionString: getDatabaseUri(),
   });
 }
-db.host = "dpg-cns95ov109ks73e3ovo0-a";
-db.connectionParameters.host = "dpg-cns95ov109ks73e3ovo0-a";
+db.host = "localhost";
+db.connectionParameters.host = "localhost";
 
 db.connect();
 
